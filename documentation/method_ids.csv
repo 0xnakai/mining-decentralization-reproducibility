@@ -1,0 +1,8 @@
+publication_name,file_relative_to_companion,method_key_or_filter,display_label_or_field,publication_location,meaning
+proposed method,experiments/results/primary/synthetic_intervals.csv.gz,proposed_hybrid,Proposed method,VI-A / VII-A / Figure 2 / Table 5 / Supplement Table S3,MT; historical candidates + direct; sharp HHI plus pairs
+proposed method without the direct lower bound,experiments/results/primary/synthetic_intervals.csv.gz,proposed_multiscale,Proposed method without the direct lower bound,VI-B / VII-B,Same candidates and historical/upper allocations; direct rho=0; no redistribution
+Milad et al.'s NC-range method,experiments/results/primary/synthetic_intervals.csv.gz,Milad_published_alpha005,find_nc_range,III-D / VII-A / Figure 2(a),Per-test alpha=0.05; NC only; no HHI output
+proposed method with KL share confidence bounds,experiments/results/primary/synthetic_intervals.csv.gz,kl_hybrid,Proposed method with KL share confidence bounds,Supplement S2.3,Only MT share bounds replaced by KL; budgets and samples held fixed
+proposed method (empirical),empirical/results_primary/monthly_intervals.csv,proposed_multiscale,Proposed method,VI-C / VII-C / Table 6 / Figure 3,MT full method with direct lower bound; all historical windows
+HHI component comparison,experiments/results/primary/synthetic_intervals.csv.gz,proposed_hybrid,hhi_curve_width versus hhi_width,Supplement S2.4,Same cumulative-share band; IC versus final IHHI
+stationary published-method audit,experiments/results/audit240_results.csv,published,published,Supplement S2.2 / Table S2,Two sizes; 240 distributions each; 2000 repetitions per cell

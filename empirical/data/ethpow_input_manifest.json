@@ -1,0 +1,35 @@
+{
+  "chain": "ethpow",
+  "record_count": 10704708,
+  "height_min": 4832686,
+  "height_max": 15537393,
+  "timestamp_min_utc": "2018-01-01T00:00:02+00:00",
+  "timestamp_max_utc": "2022-09-15T06:42:42+00:00",
+  "unique_labels": 1720,
+  "status_labels": [
+    "resolved_known_entity",
+    "unresolved_unknown_cluster"
+  ],
+  "source_path": "data/sok_assigned/eth_blocks_sok_assigned.jsonl.gz",
+  "source_compressed_sha256": "688d78334d92c07147c7095a6a9115e26e196201df4c03be6b62624985d275f3",
+  "source_payload_sha256": "27dadb4cf719bb3c440357eb1284083f34091f7233979651bd5d4b6a3ab2bb91",
+  "source_nonincreasing_height_steps": 0,
+  "height_sorted_backward_timestamp_steps": 0,
+  "array_sha256": {
+    "height": "d58f38d6170bc7704eb927a2e50cc8222a3e9e9e0ccef0a9501613436b463d93",
+    "timestamp_utc_s": "078e92ae1869ed949205eb20de6c59ff50b8e44f6208967e41dae36ff46d4f96",
+    "entity_code": "0f0d6cb8a230d44662e44488c369f56fe63fc491971cbfd6d83b3e39683591f6",
+    "source_line": "cb32c7fb7055219a48984ca95fe03b43e15f1241a989ec44082104e035891973",
+    "status_code": "cb7cd38c8fa4147cf08a2c88d71a9f91dc9bfee436eb14fe6bc575c08e6d4592"
+  },
+  "array_dtypes": {
+    "height": "int32",
+    "timestamp_utc_s": "int64",
+    "entity_code": "int32",
+    "source_line": "int32",
+    "status_code": "int16"
+  },
+  "compact_npz_sha256": "82f88c1748cfc30fff7f35fda3d9724ab2975fb3b61a41f35b529de3b17bf049",
+  "compact_labels_sha256": "0fff97975bdcf4159035eeced47adcb20d939034187656e3ee29fd85f32d3477",
+  "compact_bytes": 55385285
+}

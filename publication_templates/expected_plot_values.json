@@ -1,0 +1,474 @@
+[
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S0",
+    "method": "proposed_hybrid",
+    "anchor_length": 512,
+    "value": 1.0,
+    "lower": 0.9938707286693308,
+    "upper": 1.0
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S3",
+    "method": "proposed_hybrid",
+    "anchor_length": 512,
+    "value": 1.0,
+    "lower": 0.9938707286693308,
+    "upper": 1.0
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S7",
+    "method": "proposed_hybrid",
+    "anchor_length": 512,
+    "value": 1.0,
+    "lower": 0.9938707286693308,
+    "upper": 1.0
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S8",
+    "method": "proposed_hybrid",
+    "anchor_length": 512,
+    "value": 0.9983333333333332,
+    "lower": 0.9907492277206256,
+    "upper": 0.9999578045436128
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S0",
+    "method": "Milad_published_alpha005",
+    "anchor_length": 512,
+    "value": 0.8216666666666667,
+    "lower": 0.7886435888181969,
+    "upper": 0.8514839248327135
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S3",
+    "method": "Milad_published_alpha005",
+    "anchor_length": 512,
+    "value": 0.9966666666666668,
+    "lower": 0.9880111660413476,
+    "upper": 0.9995960626395574
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S7",
+    "method": "Milad_published_alpha005",
+    "anchor_length": 512,
+    "value": 1.0,
+    "lower": 0.9938707286693308,
+    "upper": 1.0
+  },
+  {
+    "figure": "synthetic",
+    "panel": "NC coverage",
+    "scenario": "S8",
+    "method": "Milad_published_alpha005",
+    "anchor_length": 512,
+    "value": 0.53,
+    "lower": 0.4891671409606526,
+    "upper": 0.5705362245360723
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S0",
+    "anchor_length": 128,
+    "value": 0.2614938849966194
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S0",
+    "anchor_length": 256,
+    "value": 0.1997491838303409
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S0",
+    "anchor_length": 512,
+    "value": 0.1526765373727331
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S0",
+    "anchor_length": 1024,
+    "value": 0.1197360396785197
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S0",
+    "anchor_length": 2048,
+    "value": 0.0926541185188774
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S3",
+    "anchor_length": 128,
+    "value": 0.3111416983578137
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S3",
+    "anchor_length": 256,
+    "value": 0.2360068542976629
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S3",
+    "anchor_length": 512,
+    "value": 0.1810495158190038
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S3",
+    "anchor_length": 1024,
+    "value": 0.1315080934037954
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S3",
+    "anchor_length": 2048,
+    "value": 0.0928594569525176
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S7",
+    "anchor_length": 128,
+    "value": 0.3727451681231497
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S7",
+    "anchor_length": 256,
+    "value": 0.2635555929185792
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S7",
+    "anchor_length": 512,
+    "value": 0.1860455704411525
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S7",
+    "anchor_length": 1024,
+    "value": 0.1313695102158457
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S7",
+    "anchor_length": 2048,
+    "value": 0.092790764503152
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S8",
+    "anchor_length": 128,
+    "value": 0.2696706399110867
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S8",
+    "anchor_length": 256,
+    "value": 0.2046944465924775
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S8",
+    "anchor_length": 512,
+    "value": 0.1568540311175028
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S8",
+    "anchor_length": 1024,
+    "value": 0.1234851799188049
+  },
+  {
+    "figure": "synthetic",
+    "panel": "HHI width",
+    "scenario": "S8",
+    "anchor_length": 2048,
+    "value": 0.0928915120986875
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 128,
+    "value": 0.8936284722222221
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 256,
+    "value": 1.7823090277777778
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 512,
+    "value": 3.544230324074074
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 1024,
+    "value": 7.153142361111112
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 2048,
+    "value": 14.077054398148148
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "btc",
+    "anchor_length": 4096,
+    "value": 27.976342592592594
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 128,
+    "value": 0.2625178782829472
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 256,
+    "value": 0.1950511542068146
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 512,
+    "value": 0.1479155487950991
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 1024,
+    "value": 0.1136829562483606
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 2048,
+    "value": 0.0910334832433099
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "btc",
+    "anchor_length": 4096,
+    "value": 0.0656092082900901
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 128,
+    "value": 0.2210185185185185
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 256,
+    "value": 0.4536168981481481
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 512,
+    "value": 0.8960532407407406
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 1024,
+    "value": 1.7801041666666668
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 2048,
+    "value": 3.5534085648148146
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ltc",
+    "anchor_length": 4096,
+    "value": 7.049519675925926
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 128,
+    "value": 0.2533534132220801
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 256,
+    "value": 0.1948216665838881
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 512,
+    "value": 0.1412612610255387
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 1024,
+    "value": 0.1045834312549518
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 2048,
+    "value": 0.0782243355029453
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ltc",
+    "anchor_length": 4096,
+    "value": 0.0611210351654079
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 128,
+    "value": 0.0200462962962962
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 256,
+    "value": 0.0399421296296296
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 512,
+    "value": 0.0800925925925925
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 1024,
+    "value": 0.1584953703703703
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 2048,
+    "value": 0.3175
+  },
+  {
+    "figure": "empirical",
+    "panel": "duration_days_median",
+    "chain": "ethpow",
+    "anchor_length": 4096,
+    "value": 0.6365393518518518
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 128,
+    "value": 0.2610718179930888
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 256,
+    "value": 0.1940518032546413
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 512,
+    "value": 0.1471773980985599
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 1024,
+    "value": 0.1130331722191195
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 2048,
+    "value": 0.0889705958590678
+  },
+  {
+    "figure": "empirical",
+    "panel": "hhi_width_median",
+    "chain": "ethpow",
+    "anchor_length": 4096,
+    "value": 0.0656175553274555
+  }
+]

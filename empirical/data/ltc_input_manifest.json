@@ -1,0 +1,36 @@
+{
+  "chain": "ltc",
+  "record_count": 1762701,
+  "height_min": 1342486,
+  "height_max": 3105186,
+  "timestamp_min_utc": "2018-01-01T00:04:36+00:00",
+  "timestamp_max_utc": "2026-05-10T23:59:56+00:00",
+  "unique_labels": 2522,
+  "status_labels": [
+    "identified_unknown_cluster",
+    "resolved_known_entity",
+    "unresolved_unknown_cluster"
+  ],
+  "source_path": "data/sok_assigned/ltc_blocks_sok_assigned.jsonl.gz",
+  "source_compressed_sha256": "63fbdf0c8dd027d769bbbc0b87454e59a9f1c8ad8c6f08beb858beba3a0050dc",
+  "source_payload_sha256": "17094f40c3ebfd582719762c87372d4b4340534a88fa225ff7b9c9562c718dc4",
+  "source_nonincreasing_height_steps": 993,
+  "height_sorted_backward_timestamp_steps": 523,
+  "array_sha256": {
+    "height": "55a45c9d3194e12dc20e889fa5291bf5746e764740318cb509eefdfbdf28a05c",
+    "timestamp_utc_s": "a9318912cf548cebfbd4862d0fc9f96d9907f64c5534c55373e9e42ff7534aab",
+    "entity_code": "fa1a41a7c0f8d5f1fdd57cb941fffff8c2ffe0a116b0be72724430b117533ffd",
+    "source_line": "bd6689b4b4fc158fb35912748e8291a320d8c36b06dd9c3085f1c3eb1a4ef6d3",
+    "status_code": "83acd4403707b70395fbcac6f116232bba607f228862b509aec43cfd6e8fbcd4"
+  },
+  "array_dtypes": {
+    "height": "int32",
+    "timestamp_utc_s": "int64",
+    "entity_code": "int32",
+    "source_line": "int32",
+    "status_code": "int16"
+  },
+  "compact_npz_sha256": "331c2cdbfed490d5d95f81ce22436360b156199e4783d8be3f5397f831a91d9e",
+  "compact_labels_sha256": "8e739824793aff19ab56b083aa909d7f71939d2e97d9a8899037e2d38ee2359f",
+  "compact_bytes": 9895718
+}

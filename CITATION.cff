@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite release v1.0.0 and its associated commit when using this computational companion."
+title: "Data and code for What Can Finite Proof-of-Work Block Histories Certify About Mining Decentralization?"
+type: software
+version: "1.0.0"
+date-released: "2026-11-04"
+repository-code: "https://github.com/0xnakai/mining-decentralization-reproducibility"
+url: "https://github.com/0xnakai/mining-decentralization-reproducibility/releases/tag/v1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Nakai
+    given-names: Taishi
+  - family-names: Sakurai
+    given-names: Akira
+  - family-names: Shudo
+    given-names: Kazuyuki

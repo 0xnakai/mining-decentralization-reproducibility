@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Exact coverage (\%) of \milad{} for two and four equal-share entities with 100 blocks and per-test $\alpha=0.05$. For four entities, coverage is only $0.1003\%$; retaining the first significant group size as the upper endpoint raises it to $75.68\%$, still below $95\%$. Thus, the method does not generally achieve nominal coverage, with endpoint handling and uncorrected same-sample selection constituting distinct sources of failure.}
+\label{tab:milad-exact}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+True distribution & $n$ & True NC & Original & \shortstack{Endpoint\\retained} \\
+\midrule
+$(1/2,1/2)$ & 100 & 2 & 7.9589 & 91.14 \\
+$(1/4,1/4,1/4,1/4)$ & 100 & 3 & 0.1003 & 75.68 \\
+\bottomrule
+\end{tabular}
+\end{table}

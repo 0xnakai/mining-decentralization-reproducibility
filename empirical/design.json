@@ -1,0 +1,67 @@
+{
+  "analysis_version": "empirical-v2-hybrid-20261019",
+  "scope": "Deterministic retrospective analysis of frozen saved labels using the proposed combined history and direct lower bands.",
+  "chains": [
+    {
+      "chain": "btc",
+      "display_name": "Bitcoin",
+      "first_month": "2023-05",
+      "last_month": "2026-04"
+    },
+    {
+      "chain": "ltc",
+      "display_name": "Litecoin",
+      "first_month": "2023-05",
+      "last_month": "2026-04"
+    },
+    {
+      "chain": "ethpow",
+      "display_name": "pre-Merge Ethereum",
+      "first_month": "2019-09",
+      "last_month": "2022-08"
+    }
+  ],
+  "reporting_rule": "For each UTC calendar month choose the maximum saved integer block height among records timestamped within that month. Freeze all 108 heights before evaluating intervals. This is retrospective, not an anytime-valid stopping rule.",
+  "anchor_lengths": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "anchor_rule": "Inclusive heights [h-a+1,h]. Histories use [h-a-r+1,h-a]; historical candidates are selected before the anchor, and anchor-ranked direct limits include selection correction.",
+  "duration_rule": "(timestamp[h] - timestamp[h-a]) / 86400; uses recorded UTC block timestamps, not independently verified wall-clock times.",
+  "history_lengths": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384
+  ],
+  "history_variants": [
+    "multiscale",
+    "short128",
+    "long16384"
+  ],
+  "primary_history_variant": "multiscale",
+  "candidate_ties": "Exact saved label string in Python Unicode lexicographic order, implemented by chain-specific sorted code dictionary; only positive historical counts are ranked.",
+  "labels": "Preserve exact sok_entity strings, including composite names and unknown_cluster_*; no splitting, dropping or merging.",
+  "tau": 0.5,
+  "strict_threshold": true,
+  "kmax": 10,
+  "delta_C": 0.025,
+  "delta_H": 0.025,
+  "gamma_one_sided": 0.0125,
+  "k_weights": "6/(pi^2*k^2); not renormalized over computed k.",
+  "hhi_decision_threshold": 0.2,
+  "quantiles": "Linear interpolation between ordered observations (NumPy linear convention); infinite upper endpoints remain infinite; singleton excludes empty sets.",
+  "interpretation": "All month fractions and quantiles are descriptive over 36 scheduled reports per chain. No empirical ground-truth coverage, independent-trial binomial interval, simultaneous-over-months guarantee, or universal security threshold is asserted. The theory requires conditional independence and label partition exogeneity; the chosen retrospective timestamp schedule does not itself prove those assumptions.",
+  "data_derived_choices": "No tuning of anchor lengths, thresholds, candidate budgets or reporting points based on resulting intervals. Extra empirical length 4096 extends the synthetic grid for precision/calendar-duration reporting.",
+  "lower_method": "hybrid",
+  "direct_allocation": "Residual delta_C*(1-sum_{k=1}^{kmax}w_k), allocated as residual*w_k/sum_w; historical lower and upper allocations are preserved.",
+  "attribution_sensitivity": "BTC only: six fixed resolutions of saved composite attribution strings; detailed design and all results are the results/attribution_sensitivity_* files. Main exact-label partition remains as specified."
+}

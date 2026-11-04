@@ -1,0 +1,36 @@
+{
+  "chain": "btc",
+  "record_count": 447049,
+  "height_min": 501961,
+  "height_max": 949009,
+  "timestamp_min_utc": "2018-01-01T00:08:28+00:00",
+  "timestamp_max_utc": "2026-05-11T23:21:49+00:00",
+  "unique_labels": 597,
+  "status_labels": [
+    "identified_unknown_cluster",
+    "resolved_known_entity",
+    "unresolved_unknown_cluster"
+  ],
+  "source_path": "data/sok_assigned/btc_blocks_sok_assigned.jsonl.gz",
+  "source_compressed_sha256": "eaa99f486395b9df737354c47fa45f6094be9f724cb44cc99e3e358260e3afbe",
+  "source_payload_sha256": "ccc64f17a6316108a06b4f4e222f0832275671cc0800dd3d022c50c8cb8ed2f0",
+  "source_nonincreasing_height_steps": 1957,
+  "height_sorted_backward_timestamp_steps": 1880,
+  "array_sha256": {
+    "height": "5d17db0662860ffaaa601590d9391ff66a2696b4656d03d97ba2de7bddff8946",
+    "timestamp_utc_s": "beec63f6a6c60e242164ef1ecc3095f413ed5f59a44958946707b6d0df859b6c",
+    "entity_code": "eac5210d5d49fdde9aa4d585f4689e26a2e2dc64844432ddd07b2f8a983ffce5",
+    "source_line": "2d982b5904b34cbdfd965e75af4a2f526bccfa9fd39262c2de0fb4d6005e0e4d",
+    "status_code": "9d4043ba659c51ee5edfb9d07eaa41f84c27fb80d93e0bbed88d4731e9eae3c5"
+  },
+  "array_dtypes": {
+    "height": "int32",
+    "timestamp_utc_s": "int64",
+    "entity_code": "int32",
+    "source_line": "int32",
+    "status_code": "int16"
+  },
+  "compact_npz_sha256": "955eef84a4b94052bd80d513e8d07d3c6ee493fef9bf8339ff5a4cd4109b4f0f",
+  "compact_labels_sha256": "756f42c13dc6937bcebd5751bb9459e7f6df658cd57af4530f836f4af8ab8d23",
+  "compact_bytes": 2679688
+}

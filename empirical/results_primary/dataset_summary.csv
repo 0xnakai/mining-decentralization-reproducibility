@@ -1,0 +1,4 @@
+chain,first_month,last_month,saved_records,period_records,period_labels_observed,period_unknown_prefix_blocks,period_unknown_prefix_fraction,min_height_full,max_height_full,period_min_height,period_max_height,status_counts
+btc,2023-05,2026-04,447049,159644,422,1740,0.010899250833103656,501961,949009,787705,947348,"{""identified_unknown_cluster"":1028,""resolved_known_entity"":157904,""unresolved_unknown_cluster"":712}"
+ltc,2023-05,2026-04,1762701,633512,765,17498,0.0276206291277829,1342486,3105186,2465867,3099378,"{""identified_unknown_cluster"":5102,""resolved_known_entity"":616014,""unresolved_unknown_cluster"":12396}"
+ethpow,2019-09,2022-08,10704708,6988571,764,428208,0.061272612097666317,4832686,15537393,8461047,15449617,"{""resolved_known_entity"":6560363,""unresolved_unknown_cluster"":428208}"

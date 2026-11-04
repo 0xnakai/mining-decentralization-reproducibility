@@ -1,0 +1,4 @@
+setting,n,singleton_candidate_count,one_sided_alpha,minimum_count,wrong_singleton_rate,coverage,computation
+standard_fixed_one_candidate,100,1,0.007599088773175335,66,0.0008949651957434264,0.9991050348042566,exact_binomial_tail
+standard_fixed_two_candidates,100,2,0.0037995443865876674,67,0.0008737198369123724,0.9991262801630876,exact_binomial_tail
+diagnostic_alternative_not_standard,100,2,0.025,64,0.006637120515926128,0.9933628794840739,exact_binomial_tail

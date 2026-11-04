@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Ten synthetic scenarios and their roles in evaluating NC and HHI inference. The design covers stationary sampling (S0 and S8), changes before the target window (S1--S2), and changes within it (S3--S7 and S9). Previously unseen producers are examined in S5--S7, and the strict-majority boundary in S8. Together, these scenarios distinguish sampling variation, historical candidate selection, within-window change, and threshold sensitivity when evaluating coverage and interval widths.}
+\label{tab:scenario-overview}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.04\textwidth}>{\raggedright\arraybackslash}p{.20\textwidth}>{\raggedright\arraybackslash}p{.37\textwidth}>{\raggedright\arraybackslash}p{.33\textwidth}@{}}
+\toprule
+ID & Scenario & Distributional condition & Evaluation purpose \\
+\midrule
+S0 & Stationary reference & Reference shares remain constant throughout the history and target window. & Establish behavior under sampling variation alone. \\
+S1 & Historical concentration & The leading entity gains share before the target window. & Examine histories spanning an earlier concentration change. \\
+S2 & Historical rank swap & Large and smaller entities exchange shares before the target window. & Examine candidate selection when historical rankings become stale. \\
+S3 & Within-window concentration & The leading entity gains share halfway through the target window. & Evaluate inference under an abrupt concentration change within the target. \\
+S4 & Within-window rank swap & Large and smaller entities exchange shares halfway through the target window. & Examine changing producer identities while the instantaneous ranked shares are preserved. \\
+S5 & Moderate entrant & An entity absent from history enters halfway through the target window with share 0.18. & Examine a missing historical candidate with a moderate target-window contribution. \\
+S6 & Large entrant & An entity absent from history enters halfway through the target window with share 0.70. & Examine a larger missing historical candidate at the same arrival time as S5. \\
+S7 & Dominant entrant & An entity absent from history enters after the first quarter with share 0.80. & Test whether the direct lower bound recovers a finite NC upper endpoint. \\
+S8 & Strict-majority boundary & Constant shares give the two largest entities exactly one half in total. & Evaluate coverage at the threshold where strict-majority NC is 3. \\
+S9 & Gradual concentration & The leading share rises in eight stages during the target window. & Evaluate inference under a progressive rather than abrupt change. \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,2 @@
+# Keep checksum-pinned numerical code and provenance byte-identical on checkout.
+* -text

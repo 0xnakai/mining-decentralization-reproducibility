@@ -1,0 +1,13 @@
+{
+  "inputs_sha256": {
+    "synthetic_intervals.csv.gz": "81452430dbd384e71529889d86666063e1cdec0a453dadf5d19f8e02f568e75d",
+    "synthetic_segment_counts.npz": "e2d8874569eb5d9476df70f51cc46122f78a2bd0b06f3b45d65e4f5a7e221a4d",
+    "synthetic_design.json": "96d2672a8c267b9530ba5e1b86451d6cd47fc877bb18564c2709d768a514f0b3"
+  },
+  "code_sha256": {
+    "inference.py": "c69f837ddfffca97e17bc778bbe60d5f61caa7fe0cf6efc48a5a58940196488b",
+    "primary_inference.py": "3a297cf4b118288358b4195cf9d930d020193f229ff2631c0d8d29a1d5a2b420",
+    "run_primary.py": "634f6b8164aebcc7f79fd227aedb4ef93d53ca43dddc84e53e7916184f0f2d8d",
+    "io_utils.py": "a03e88d5c680bef11f80697f015fceb3b40732bc7cb594c24215972eb1fe48bd"
+  }
+}

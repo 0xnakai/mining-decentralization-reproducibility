@@ -1,0 +1,25 @@
+{
+  "repository": "Blockchain-Technology-Lab/nc-statistical-confidence",
+  "commit_sha": "c2ba171844a52463dc8f4c2a837821b43e869c3e",
+  "commit_date_utc": "2024-03-12T11:43:05Z",
+  "tree_sha": "d8e67fa7cf59eb55ff3ca9b819b49ad947937670",
+  "retrieved_on": "2026-10-19",
+  "files": [
+    {
+      "path": "main.py",
+      "bytes": 5939,
+      "sha256": "89de89c8f40746f5c5a20c341de22e66f72cb239fee88a0b531313f4a092e74b",
+      "git_blob_sha1": "51300d3a5c0b75b76c04c2587c9734ac771eb8f2",
+      "blob_url": "https://api.github.com/repos/Blockchain-Technology-Lab/nc-statistical-confidence/git/blobs/51300d3a5c0b75b76c04c2587c9734ac771eb8f2",
+      "permalink": "https://github.com/Blockchain-Technology-Lab/nc-statistical-confidence/blob/c2ba171844a52463dc8f4c2a837821b43e869c3e/main.py"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1108,
+      "sha256": "f56c5ec7e19f4d98ba1ea0a4ec189ab3b09caa090d94b7fad63ab982e5d5e51e",
+      "git_blob_sha1": "1e5044ea4664ed93f29c24b9f6734281e271650f",
+      "blob_url": "https://api.github.com/repos/Blockchain-Technology-Lab/nc-statistical-confidence/git/blobs/1e5044ea4664ed93f29c24b9f6734281e271650f",
+      "permalink": "https://github.com/Blockchain-Technology-Lab/nc-statistical-confidence/blob/c2ba171844a52463dc8f4c2a837821b43e869c3e/LICENSE"
+    }
+  ]
+}

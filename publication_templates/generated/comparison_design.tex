@@ -1,0 +1,19 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Overview of the three evaluation objectives, their designs, and main findings. (A) The proposed method achieves high empirical joint NC--HHI coverage. (B) The direct lower bound recovers finite NC upper endpoints for a dominant entrant absent from history. (C) In the three blockchain case studies, larger target-window block counts reduce median HHI interval widths while extending averaging durations.}
+\label{tab:comparison-design}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.19\textwidth}>{\raggedright\arraybackslash}p{.28\textwidth}>{\raggedright\arraybackslash}p{.49\textwidth}@{}}
+\toprule
+Objective & Evaluation design & Main findings \\
+\midrule
+\textbf{A. Coverage and interval widths} & Ten scenarios $\times$ five target-window block counts $\times$ 600 trials; NC coverage compared with \milad{}. & Joint NC--HHI coverage: \textbf{29,994/30,000 (99.98\%)}. At $a=512$ in S8, NC coverage is \textbf{99.83\% versus 53.00\%} for \milad{}. Mean HHI interval widths decrease with block count in all four diagnostic scenarios. \\
+\addlinespace[3pt]
+\textbf{B. Contribution of the direct lower bound} & Matched comparison with and without the direct lower bound, keeping all other allocations fixed; S7 (dominant entrant) at $a=512$. & Finite NC upper endpoints increase from \textbf{0/600 to 600/600}. With the direct lower bound, \textbf{26/600} outputs are singleton NC sets, with no observed NC coverage failures. \\
+\addlinespace[3pt]
+\textbf{C. Blockchain case studies} & Bitcoin, Litecoin, and pre-Merge Ethereum; 36 monthly reports per chain and six target-window block counts. & Increasing the block count from \textbf{512 to 4096} more than halves median HHI interval widths and increases singleton NC sets in all three chains, while extending averaging durations. \\
+\bottomrule
+\end{tabular}
+\end{table*}

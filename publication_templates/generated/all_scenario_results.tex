@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Proposed-method outputs for all ten scenarios at $a=512$, with 600 trials per row. Joint coverage counts trials containing both true NC and HHI. Mean NC-set size counts included integers, whereas mean HHI width is the difference between the endpoints of the final interval $I_{\mathrm{HHI}}$. Both means use all 600 trials. Scenario definitions are in Table~\ref{tab:compact-all-scenarios}.}
+\label{tab:all-scenario-results}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{.25\textwidth}rrrrr@{}}
+\toprule
+ID & Scenario & \shortstack{True\\NC} & \shortstack{True\\HHI} & \shortstack{Joint\\coverage} & \shortstack{Mean\\NC-set size} & \shortstack{Mean final\\HHI width} \\
+\midrule
+S0 & Stationary reference & 3 & 0.1581 & 600/600 & 2.152 & 0.1527 \\
+S1 & Historical concentration & 2 & 0.2096 & 600/600 & 1.732 & 0.1790 \\
+S2 & Historical rank swap & 3 & 0.1581 & 600/600 & 2.223 & 0.1552 \\
+S3 & Within-window concentration & 2 & 0.2439 & 600/600 & 1.665 & 0.1810 \\
+S4 & Within-window rank swap & 4 & 0.0983 & 600/600 & 4.533 & 0.1232 \\
+S5 & Moderate entrant & 3 & 0.1390 & 600/600 & 2.455 & 0.1535 \\
+S6 & Large entrant & 2 & 0.1893 & 600/600 & 2.675 & 0.1864 \\
+S7 & Dominant entrant & 1 & 0.3853 & 600/600 & 1.957 & 0.1860 \\
+S8 & Strict-majority boundary & 3 & 0.1656 & 599/600 & 2.037 & 0.1569 \\
+S9 & Gradual concentration & 2 & 0.2582 & 600/600 & 1.867 & 0.1805 \\
+\bottomrule
+\end{tabular}
+\end{table*}

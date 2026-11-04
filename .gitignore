@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+runs/
+matplotlib-cache/
+.env
+*.pem
+*.key
+service-account*.json
+service_account*.json
+credentials.json

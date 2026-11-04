@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Joint NC--HHI coverage, mean NC-set size, and mean final HHI interval width at $a=512$, with 600 trials per scenario. The four scenarios pair a stationary reference (S0) with three distinct challenges: within-window concentration (S3), a dominant entrant absent from history (S7), and the strict-majority boundary (S8). Across all four scenarios, empirical joint coverage is at least $99.83\%$, NC sets contain approximately two integers on average, and mean HHI interval widths are below $0.19$. These results show that the proposed method combines high joint coverage with informative NC sets and HHI intervals across these distinct conditions.}
+\label{tab:compact-synthetic}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrrr}
+\toprule
+ID & Mechanism & True NC & True HHI & Joint coverage & \shortstack{Mean NC-set size\\(integers)} & \shortstack{Mean final\\HHI width} \\
+\midrule
+S0 & Stationary reference & 3 & 0.1581 & 600/600 & 2.152 & 0.1527 \\
+S3 & Within-window concentration & 2 & 0.2439 & 600/600 & 1.665 & 0.1810 \\
+S7 & Dominant entrant & 1 & 0.3853 & 600/600 & 1.957 & 0.1860 \\
+S8 & Strict-majority boundary & 3 & 0.1656 & 599/600 & 2.037 & 0.1569 \\
+\bottomrule
+\end{tabular}
+\end{table*}

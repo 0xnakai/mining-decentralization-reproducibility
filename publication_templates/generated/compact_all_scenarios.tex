@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\centering
+\footnotesize
+\caption{The complete synthetic scenario design. The target window is $[0,a)$; a negative change location precedes it.}
+\label{tab:compact-all-scenarios}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcl}
+\toprule
+ID & Mechanism & Change & After change \\
+\midrule
+S0 & Stationary reference & --- & $p^{(0)}$ \\
+S1 & Historical concentration & $-2048$ & $D_{0.10}(p^{(0)})$ \\
+S2 & Historical rank swap & $-1024$ & $R(p^{(0)})$ \\
+S3 & Within-window concentration & $a/2$ & $D_{0.30}(p^{(0)})$ \\
+S4 & Within-window rank swap & $a/2$ & $R(p^{(0)})$ \\
+S5 & Moderate entrant & $a/2$ & $E_{0.18}(p^{(0)})$ \\
+S6 & Large entrant & $a/2$ & $E_{0.70}(p^{(0)})$ \\
+S7 & Dominant entrant & $a/4$ & $E_{0.80}(p^{(0)})$ \\
+S8 & Strict-majority boundary & --- & $C_2=1/2$ \\
+S9 & Gradual concentration & each $a/8$ & Equation~\eqref{eq:compact-gradual} \\
+\bottomrule
+\end{tabular}
+\end{table}

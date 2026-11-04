@@ -1,0 +1,10 @@
+{
+  "primary_scalar": "Mattner-Tasto",
+  "primary_code_sha256": "3a297cf4b118288358b4195cf9d930d020193f229ff2631c0d8d29a1d5a2b420",
+  "adapter_sha256": "5e128b1a0ca7c9c0838ef15b88da496c1f02b3639bb8ee4e6b8787ce973bdd2b",
+  "attribution_reference": {
+    "paired_comparisons": 1296,
+    "nc_set_changed_pairs": 0,
+    "primary_code_sha256": "3a297cf4b118288358b4195cf9d930d020193f229ff2631c0d8d29a1d5a2b420"
+  }
+}

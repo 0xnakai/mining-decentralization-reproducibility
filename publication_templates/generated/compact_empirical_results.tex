@@ -1,0 +1,19 @@
+\begin{table*}[!t]
+\centering
+\small
+\caption{Summary of monthly NC and HHI outputs and averaging durations for Bitcoin, Litecoin, and pre-Merge Ethereum, with 36 reports per chain. Increasing the target-window block count from 512 to 4096 more than halves the median HHI interval width and increases the number of singleton NC sets in all three chains, while extending the averaging duration.}
+\label{tab:compact-empirical}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Chain & $a$ & \shortstack{Median averaging\\duration (days)} & \shortstack{Median NC\\lower endpoint} & \shortstack{Median NC\\upper endpoint} & \shortstack{Singleton NC sets\\(/36)} & \shortstack{Median HHI\\width} & \shortstack{95th pct. HHI\\width} \\
+\midrule
+Bitcoin & 512 & 3.5442 & 2 & 3 & 2 & 0.1479 & 0.1557 \\
+Bitcoin & 4096 & 27.9763 & 2 & 3 & 24 & 0.0656 & 0.0656 \\
+Litecoin & 512 & 0.8961 & 2 & 3 & 11 & 0.1413 & 0.1613 \\
+Litecoin & 4096 & 7.0495 & 2 & 2 & 26 & 0.0611 & 0.0656 \\
+pre-Merge Ethereum & 512 & 0.0801 & 2 & 4 & 1 & 0.1472 & 0.1624 \\
+pre-Merge Ethereum & 4096 & 0.6365 & 3 & 3 & 24 & 0.0656 & 0.0656 \\
+\bottomrule
+\end{tabular}
+\end{table*}
